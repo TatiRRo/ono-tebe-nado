@@ -1,7 +1,6 @@
 :root {
     --main-color-text: #000;
     --secondary-color-text: #fff;
-    --main-font-family: 'Raleway';
 }
 
 body {
@@ -36,7 +35,7 @@ ul {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -76,7 +75,7 @@ ul {
     text-decoration: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -96,7 +95,9 @@ ul {
 
 .cover {
     min-height: 757px;
-    background-image: url(../images/cover.jpg);
+    /* background-image: url(../images/cover.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/cover.jpg);
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
@@ -113,7 +114,7 @@ ul {
 }
 
 .cover__title {
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 100px;
@@ -148,7 +149,7 @@ ul {
     align-items: baseline;
 }
 .cover__auction-title {
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -159,7 +160,7 @@ ul {
 }
 
 .button__link {
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -181,7 +182,7 @@ ul {
 }
 
 .lots__title {
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -213,15 +214,18 @@ ul {
 }
 
 .lots__list-item_lot-01 {
-    background-image: url(../images/card-lot-01.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/card-lot-01.jpg);
 }
 
 .lots__list-item_lot-02 {
-    background-image: url(../images/card-lot-02.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/card-lot-02.jpg);
 }
 
 .lots__list-item_lot-03 {
-    background-image: url(../images/card-lot-03.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/card-lot-03.jpg);
 }
 
 .lots__list-item_watch-more {
@@ -232,7 +236,7 @@ ul {
 }
 
 .lots__item-title {
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -243,7 +247,7 @@ ul {
 }
 
 .lots__item-description {
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -285,7 +289,7 @@ ul {
 }
 
 .about-auction__title {
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -295,7 +299,7 @@ ul {
 }
 
 .about-auction__article {
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -311,12 +315,12 @@ ul {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    font-family: var(--main-font-family);
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     color: var(--main-color-text);
-    margin-bottom: 88px;
+    margin-bottom: 77px;
 }
 
 .navigation__list_footer {
