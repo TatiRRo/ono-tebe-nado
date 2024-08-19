@@ -1,1 +1,344 @@
-/* место для вашего кода */
+:root {
+    --main-color-text: #000;
+    --secondary-color-text: #fff;
+    --main-font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+body {
+    font-family: Inter;
+    font-weight: 400;
+    color: var(--main-color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* .header */
+
+.header {
+    padding: 92px 27px;
+    max-width: 1052px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21%;
+    color: var(--main-color-text) 000;
+}
+
+.navigation {
+    display: flex;
+}
+
+.header__logo_white {
+    width: 148px;
+    height: 105px;
+}
+
+.navigation__list {
+    list-style: circle;
+    display: flex;
+    justify-content: space-between;
+    min-width: 389px;
+    padding: 45px 0;
+}
+
+.navigation__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.address {
+    font-style: normal;
+    min-width: 237px;
+    padding: 6px 0;
+    line-height: 135%;
+}
+
+.simple-link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    color: var(--main-color-text) 000;
+}
+
+.simple-link_active {
+    text-decoration: none;
+}
+
+.header__logo {
+    margin: 0 35px;
+}
+
+/* .cover */
+
+.cover {
+    min-height: 757px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    color: var(--secondary-color-text);
+    padding-top: 161px;
+    margin-bottom: 179px;
+}
+
+.cover__overlay {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover__title {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 31px;
+    text-transform: uppercase;
+    line-height: 124%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.cover__title-aligned-text_center {
+    text-align: center;
+}
+
+.cover__title-aligned-text_right {
+    text-align: right;
+}
+
+.cover__space-lettering-increase {
+    letter-spacing: 59px;
+}
+
+.cover__space-lettering-reduce {
+    letter-spacing: 0;
+}
+
+.cover__auction-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 27px;
+    align-items: baseline;
+}
+.cover__auction-title {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: var(--secondary-color-text);
+    word-spacing: 19px;
+}
+
+.button__link {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 115%;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--secondary-color-text);
+    border: 1px solid var(--secondary-color-text);
+    padding: 12px 32px;
+}
+
+/* .lots */
+
+.lots {
+    max-width: 1052px;
+    margin: auto;
+    max-height: 692px;
+    margin-bottom: 178px;
+}
+
+.lots__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--main-color-text);
+    padding-left: 39px;
+    margin-bottom: 27px;
+}
+
+.lots__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.lots__list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 334px;
+    padding: 48px 40px;
+    background-color: var(--main-color-text);
+    background-image: none;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: -103px;
+}
+
+.lots__list-item_lot-01 {
+    background-image: url(../images/card-lot-01.jpg);
+}
+
+.lots__list-item_lot-02 {
+    background-image: url(../images/card-lot-02.jpg);
+}
+
+.lots__list-item_lot-03 {
+    background-image: url(../images/card-lot-03.jpg);
+}
+
+.lots__list--item_watch-more {
+    background-color: transparent;
+    /* значение margin-right: auto; необходимо, чтобы при добавлении 4-ой карточки, ссылка прижималась к ней, а не к краю страницы  */
+    margin-right: auto;
+    padding: 8px 40px;
+}
+
+.lots__item-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: var(--secondary-color-text);
+}
+
+.lots__item-description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--secondary-color-text);
+}
+
+.simple-link_font-increase {
+    font-size: 20px;
+}
+
+/* .about-auction */
+
+.about-auction {
+    max-width: 1052px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 47px;
+    margin-bottom: 174px;
+}
+.about-auction__logo-container {
+    width: 240px;
+    height: 240px;
+    background-color: var(--main-color-text);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-auction__logo {
+    width: 150px;
+    height: 150px;
+}
+
+.about-auction__text-container {
+    max-width: 693px;
+    padding-top: 101px;
+}
+
+.about-auction__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--main-color-text);
+    margin-bottom: 101px;
+}
+
+.about-auction__article {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--main-color-text);
+    margin-top: 25px;
+}
+
+/* .footer */
+
+.footer {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--main-color-text);
+    margin-bottom: 88px;
+}
+
+.navigation__list_footer {
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    justify-content: start;
+    padding-top: 6px;
+}
+
+.footer__contacts {
+    display: flex;
+}
+
+.footer__logo-item {
+    width: 48px;
+    height: 48px;
+}
+
+.footer__contacts-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    padding-top: 6px;
+}
