@@ -1,7 +1,7 @@
 :root {
     --main-color-text: #000;
     --secondary-color-text: #fff;
-    --main-font-family: 'Raleway', 'Arial', sans-serif;
+    --main-font-family: 'Raleway', sans-serif;
 }
 
 body {
