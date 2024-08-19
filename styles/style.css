@@ -1,7 +1,7 @@
 :root {
     --main-color-text: #000;
     --secondary-color-text: #fff;
-    --main-font-family: 'Raleway', sans-serif;
+    --main-font-family: 'Raleway';
 }
 
 body {
@@ -181,7 +181,7 @@ ul {
 }
 
 .lots__title {
-    font-family: 'Raleway';
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -232,7 +232,7 @@ ul {
 }
 
 .lots__item-title {
-    font-family: 'Raleway';
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -243,7 +243,7 @@ ul {
 }
 
 .lots__item-description {
-    font-family: 'Raleway';
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -285,7 +285,7 @@ ul {
 }
 
 .about-auction__title {
-    font-family: 'Raleway';
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -295,7 +295,7 @@ ul {
 }
 
 .about-auction__article {
-    font-family: 'Raleway';
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
