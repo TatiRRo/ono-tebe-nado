@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Inter;
+    font-family: Raleway;
     font-weight: 400;
     color: var(--main-color-text);
 }
@@ -41,7 +41,7 @@ ul {
     font-weight: 400;
     font-size: 18px;
     line-height: 21%;
-    color: var(--main-color-text) 000;
+    color: var(--main-color-text);
 }
 
 .navigation {
@@ -54,7 +54,7 @@ ul {
 }
 
 .navigation__list {
-    list-style: circle;
+    list-style-type: circle;
     display: flex;
     justify-content: space-between;
     min-width: 389px;
@@ -81,7 +81,7 @@ ul {
     font-weight: 400;
     font-size: 18px;
     line-height: 110%;
-    color: var(--main-color-text) 000;
+    color: var(--main-color-text);
 }
 
 .simple-link_active {
@@ -224,7 +224,7 @@ ul {
     background-image: url(../images/card-lot-03.jpg);
 }
 
-.lots__list--item_watch-more {
+.lots__list-item_watch-more {
     background-color: transparent;
     /* значение margin-right: auto; необходимо, чтобы при добавлении 4-ой карточки, ссылка прижималась к ней, а не к краю страницы  */
     margin-right: auto;
