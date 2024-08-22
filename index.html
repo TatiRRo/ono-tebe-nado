@@ -27,14 +27,12 @@
                         <a href="#" class="simple-link">об аукционе</a>
                     </li>
                 </ul>
-                <div class="header__logo">
-                    <a class="simple-link"
-                        ><img
-                            src="./images/logo-black.svg"
-                            class="header__logo_white"
-                            alt="Логотип Оно тебе надо"
-                    /></a>
-                </div>
+                <a class="simple-link"
+                    ><img
+                        src="./images/logo-black.svg"
+                        class="header__logo header__logo_black"
+                        alt="Изображен логотип компании Оно тебе надо. Он представляет собой черный квадрат, в который вписано название кампании черными буквами"
+                /></a>
             </nav>
             <address class="address">
                 <ul class="address__contacts">
@@ -48,39 +46,43 @@
                             >info@sobaka.ge</a
                         >
                     </li>
-                    <li class="address__contacts-item">
-                        наб. Принсенграхт 263-<br />265, Амстердам
-                    </li>
                 </ul>
+                <p
+                    class="address__contacts-item address__contacts-item_location"
+                >
+                    наб. Принсенграхт 263-<br />265, Амстердам
+                </p>
             </address>
         </header>
         <main>
             <section class="cover">
                 <div class="cover__overlay">
-                    <h1 class="cover__title">
-                        <span class="cover__title-aligned-text"
-                            >О<span class="cover__space-lettering-increase"
-                                >НО</span
-                            ></span
-                        >
-                        <span class="cover__title-aligned-text_center"
-                            >ТЕ<span class="cover__space-lettering-increase"
-                                >БЕ</span
-                            ></span
-                        >
-                        <span class="cover__title-aligned-text_right"
-                            ><span class="cover__space-lettering-increase"
-                                >Н</span
-                            >АД<span class="cover__space-lettering-reduce"
-                                >О</span
-                            ></span
-                        >
-                    </h1>
-                    <div class="cover__auction-container">
-                        <h2 class="cover__auction-title">
-                            Аукцион вещей, в которые никто не верил
-                        </h2>
-                        <a href="#" class="button__link">Сделать ставку</a>
+                    <div class="cover__content">
+                        <h1 class="cover__title">
+                            <span class="cover__title-aligned-text"
+                                >О<span class="cover__space-lettering-increase"
+                                    >НО</span
+                                ></span
+                            >
+                            <span class="cover__title-aligned-text_center"
+                                >ТЕ<span class="cover__space-lettering-increase"
+                                    >БЕ</span
+                                ></span
+                            >
+                            <span class="cover__title-aligned-text_right"
+                                ><span class="cover__space-lettering-increase"
+                                    >Н</span
+                                >АД<span class="cover__space-lettering-reduce"
+                                    >О</span
+                                ></span
+                            >
+                        </h1>
+                        <div class="cover__auction-container">
+                            <h2 class="cover__auction-title">
+                                Аукцион вещей, в которые никто не верил
+                            </h2>
+                            <a href="#" class="button__link">Сделать ставку</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -88,62 +90,67 @@
                 <h2 class="lots__title">лоты</h2>
                 <ul class="lots__list">
                     <li class="lots__list-item lots__list-item_lot-01">
-                        <h3 class="lots__item-title">
-                            <a href="#" class="lots__item-link"
-                                >Фильм режиссёра, который бросил киношколу</a
-                            >
-                        </h3>
-                        <p class="lots__item-description">
-                            Не просто бросил, а ушёл с первой лекции. Какой была
-                            бы ваша ставка, если бы вы не знали, что режиссёр —
-                            Пол Томас Андерсон?
-                        </p>
+                        <div class="cover__overlay">
+                            <a href="vk.com" class="lots__item-link">
+                                <h3 class="lots__item-title">
+                                    Фильм режиссёра, который бросил киношколу
+                                </h3>
+                                <p class="lots__item-description">
+                                    Не просто бросил, а ушёл с первой лекции.
+                                    Какой была бы ваша ставка, если бы вы не
+                                    знали, что режиссёр — Пол Томас Андерсон?
+                                </p>
+                            </a>
+                        </div>
                     </li>
                     <li class="lots__list-item lots__list-item_lot-02">
-                        <h3 class="lots__item-title">
-                            <a href="#" class="lots__item-link"
-                                >Книга, где описан один скучный день из жизни
-                                рекламного агента</a
-                            >
-                        </h3>
-                        <p class="lots__item-description">
-                            Объёмом почти в тысячу страниц. Иногда без знаков
-                            препинания и с переходами на древнеанглийский. В ней
-                            одновременно рассказывается о 16 июня 1904 года и об
-                            истории литературы, начиная с античных времён. И это
-                            всё накладывается на эпическую поэму Гомера. Сколько
-                            бы вы поставили на «Улисса» Джеймса Джойса?
-                        </p>
+                        <div class="cover__overlay">
+                            <a href="#" class="lots__item-link">
+                                <h3 class="lots__item-title">
+                                    Книга, где описан один скучный день из жизни
+                                    рекламного агента
+                                </h3>
+                                <p class="lots__item-description">
+                                    Объёмом почти в тысячу страниц. Иногда без
+                                    знаков препинания и с переходами на
+                                    древнеанглийский. В ней одновременно
+                                    рассказывается о 16 июня 1904 года и об
+                                    истории литературы, начиная с античных
+                                    времён. И это всё накладывается на эпическую
+                                    поэму Гомера. Сколько бы вы поставили на
+                                    «Улисса» Джеймса Джойса?
+                                </p>
+                            </a>
+                        </div>
                     </li>
                     <li class="lots__list-item lots__list-item_lot-03">
-                        <h3 class="lots__item-title">
-                            <a href="#" class="lots__item-link"
-                                >Картина, которую повторит даже 5-летний сын
-                                маминой подруги</a
-                            >
-                        </h3>
-                        <p class="lots__item-description">
-                            Ну действительно, там линия, тут кружочек, а здесь и
-                            вовсе что-то похожее на инфузорию-туфельку. Никаких
-                            полей, лесов, котиков... Сколько бы вы на такое
-                            поставили, если бы не знали, что это — одна из
-                            революционных работ Кандинского?
-                        </p>
-                    </li>
-                    <li class="lots__list-item lots__list-item_watch-more">
-                        <a
-                            href="#"
-                            class="simple-link simple-link_font-increase"
-                            >посмотреть больше</a
-                        >
+                        <div class="cover__overlay">
+                            <a href="#" class="lots__item-link">
+                                <h3 class="lots__item-title">
+                                    Картина, которую повторит даже 5-летний сын
+                                    маминой подруги
+                                </h3>
+                                <p class="lots__item-description">
+                                    Ну действительно, там линия, тут кружочек, а
+                                    здесь и вовсе что-то похожее на
+                                    инфузорию-туфельку. Никаких полей, лесов,
+                                    котиков... Сколько бы вы на такое поставили,
+                                    если бы не знали, что это — одна из
+                                    революционных работ Кандинского?
+                                </p>
+                            </a>
+                        </div>
                     </li>
                 </ul>
+                <a href="#" class="simple-link lots__list-item_watch-more"
+                    >посмотреть больше</a
+                >
             </section>
             <section class="about-auction">
                 <div class="about-auction__logo-container">
                     <img
                         src="./images/logo-white.svg"
-                        alt="Логотип Оно тебе Надо"
+                        alt="Изображен логотип компании Оно тебе надо. Он представляет собой белый квадрат, в который вписано название кампании белыми буквами"
                         class="about-auction__logo"
                     />
                 </div>
@@ -182,9 +189,11 @@
                                 >info@sobaka.ge</a
                             >
                         </li>
-                        <li class="address__contacts-item">
+                        <p
+                            class="address__contacts-item address__contacts-item_location"
+                        >
                             наб. Принсенграхт 263-<br />265, Амстердам
-                        </li>
+                        </p>
                     </ul>
                 </address>
                 <nav class="navigation navigation_footer">
@@ -212,7 +221,7 @@
                         >
                             <img
                                 src="./images/yt.svg"
-                                alt="Ссылка на Youtube"
+                                alt="Изображен логотип Youtube, он представляет собой круг, в котором изображена кнопка"
                                 class="footer__logo-item footer__logo-youtube"
                         /></a>
                     </li>
@@ -220,7 +229,7 @@
                         <a href="https://www.vk.com" class="footer__link-vk"
                             ><img
                                 src="./images/vk.svg"
-                                alt="Ссылка на VK"
+                                alt="Изображен логотип VK, он представляет собой круг, в который вписаны латинские буквы VK"
                                 class="footer__logo-item footer__logo-vk"
                         /></a>
                     </li>
@@ -230,7 +239,7 @@
                             class="footer__link-pinterest"
                             ><img
                                 src="./images/pinterest.svg"
-                                alt="Ссылка на Pinterest"
+                                alt="Изображен логотип Pinterest, он представляет собой круг, в который вписаны латинская буква Pinterest"
                                 class="footer__logo-item footer__logo-pinterest"
                         /></a>
                     </li>
